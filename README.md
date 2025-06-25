@@ -21,10 +21,12 @@ Explored how various socio-economic, environmental, and energy-related factors i
 ## Notebook Highlights
 #### 1. Setup and Data Import
 Imported cleaned dataset data_cleaned.csv
+
 Loaded essential libraries: pandas, numpy, matplotlib, seaborn, statsmodels
 
 ### 2. Global Data Overview
 Dataset shape: (1700, 18)
+
 Column summaries, data types, and initial descriptive statistics
 
 
@@ -33,22 +35,32 @@ CO₂ emissions are influenced by factors such as energy use, population metrics
 
 ### 4.Feature Engineering
 Derived en_ttl (Total Energy Use)
+
 Correlation matrix to evaluate feature relationships
+
 Multicollinearity check using VIF (Variance Inflation Factor)
 
 ### 5. Visualizations
 Line plot: Global average CO₂ emissions per capita (1991–2008)
+
 Scatter plot: CO₂ emissions vs population
+
 Pair plots: Visualizing dependencies across selected countries
+
 4D plot: Relationship between urb_pop_growth_perc, co2_per_cap, en_per_cap, and pop_urb_aggl_perc
 
 ### 6.Outlier Analysis
 Detected outliers (e.g., United Arab Emirates with 25–40 t/capita)
+
 Removed extreme outliers to improve clarity of plots
 
 ## Key Insights
 Strong linear relationship: co2_per_cap and en_per_cap
+
 Nonlinear patterns: with variables like gni_per_cap, urban population growth
+
 Country-specific clusters influence emission trends
+
 Outliers like UAE deviate heavily from global norms
+
 Population count showed low relevance and was dropped

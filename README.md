@@ -9,10 +9,15 @@ Features: Greenhouse gas emissions (CO2, CH4, N2O) Population data (total, urban
 
 # Stage 1: Data Cleaning and Preparation
 Import and overview of raw data
+
 Handling missing values
+
 Feature renaming and formatting
+
 Conversion to numerical types
+
 Melting and transforming datasets
+
 Final clean dataset exported as data_cleaned.csv
 
 # Stage 2 : Data exploration and visualization
